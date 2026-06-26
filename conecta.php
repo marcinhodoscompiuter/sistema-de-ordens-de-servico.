@@ -1,7 +1,7 @@
 <?php
 try {
     $nome_banco = '';
-    $conexao = new PDO('sqlite:'. $nome_banco);
+    $conexao = new PDO('sqlite:'. marcio_bank);
     $conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 } catch (PDOException $e) {
